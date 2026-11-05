@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarjeta 360 — Soluciones Digitales</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-grid"></div>
+
+    <main class="stage">
+      <div class="card-wrap">
+        <div class="card" id="card">
+          <div class="card-face card-front">
+            <div class="deco"></div>
+            <div class="brand">
+              <div class="brand-text">
+                <strong>Joberland Suniaga</strong>
+                <small>Ventas online · Diseño · Apps</small>
+              </div>
+            </div>
+            <nav class="menu" id="menu" aria-label="Soluciones digitales"></nav>
+            <p class="hint">Toca una opción para descubrirla</p>
+          </div>
+
+          <div class="card-face card-back">
+            <div class="deco back"></div>
+            <button
+              class="back-btn"
+              id="backBtn"
+              aria-label="Volver a elegir una opción"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.2"
+              >
+                <path d="M15 5l-7 7 7 7" />
+              </svg>
+              Cambiar
+            </button>
+
+            <span class="role" data-field="role">Servicio</span>
+            <div class="avatar" data-field="avatar">UC</div>
+            <h2 class="name">
+              <span data-field="firstName">Nombre</span>
+              <em data-field="lastName">Marca</em>
+            </h2>
+            <p class="style" data-field="tagline">Tagline</p>
+            <p class="desc" data-field="description"></p>
+            <div class="tags" data-field="tags"></div>
+
+            <ul class="socials" id="socials"></ul>
+
+            <a
+              class="cta-btn"
+              id="ctaBtn"
+              href="#"
+              target="_blank"
+              rel="noopener"
+            >
+              <span class="cta-ico">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="12" cy="12" r="9" />
+                  <path
+                    d="M3 12h18M12 3c2.5 2.7 2.5 15.3 0 18M12 3c-2.5 2.7-2.5 15.3 0 18"
+                  />
+                </svg>
+              </span>
+              <span id="ctaText">Visitar sitio web</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
