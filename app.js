@@ -29,7 +29,6 @@ const solutions = [
     socials: [
       { icon: "instagram", label: "Instagram", handle: "@technologygroupac", url: "https://www.instagram.com/technologygroupac/" },
       { icon: "whatsapp", label: "WhatsApp", handle: "Asesoría", url: "https://wa.me/584226382165" },
-      { icon: "web", label: "Sitio web", handle: "Catálogo", url: "https://technologygroup.vercel.app/" },
     ],
   },
   {
@@ -38,14 +37,13 @@ const solutions = [
     role: "Diseño & Desarrollo",
     tagline: "Web · Apps · Tarjetas",
     description:
-      "Próximamente: proyectos de páginas web, aplicaciones, diseño gráfico y tarjetas de presentación digitales.",
+      "Proyectos de páginas web, aplicaciones, diseño gráfico y tarjetas de presentación digitales.",
     tags: ["Páginas web", "Apps", "Diseño", "Tarjetas"],
     colors: { c1: "#b14aff", c2: "#e040fb" },
-    url: "",
-    cta: "Portafolio próximamente",
+    url: "https://joberland-cv.vercel.app/",
+    cta: "Visitar portafolio",
     socials: [
       { icon: "whatsapp", label: "WhatsApp", handle: "Contacto", url: "https://wa.me/584226382165" },
-      { icon: "web", label: "Sitio web", handle: "Próximamente", url: "" },
     ],
   },
 ];
